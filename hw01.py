@@ -1,5 +1,5 @@
 # ------------------------------------------------------
-#        Name: (put your name here)
+#        Name: Marla Amarsaikhan
 #       Peers: (add any collaborators)
 #  References: (anything you checked to solve this)
 # ------------------------------------------------------
@@ -45,6 +45,16 @@ def main():
     # Part 1: Basic Operations
     # =============================================
     # Your code for part 1 under this line and before the print statements
+    x = 27
+    y = 1
+    a = 1.5
+    b = 7
+    c = -1
+    print("Part 1: x =",x)
+    print("Part 1: y =",y)
+    print("Part 1: a =",a)
+    print("Part 1: b =",b)
+    print("Part 1: c =",c)
 
     # End of Part 1 ----------------------
 
