@@ -1,7 +1,7 @@
 # ------------------------------------------------------
 #        Name: Marla Amarsaikhan
 #       Peers: (add any collaborators)
-#  References: (anything you checked to solve this)
+#  References: Lesson Notes
 # ------------------------------------------------------
 
 
@@ -57,7 +57,6 @@ def main():
     print("Part 1: b =",b)
     print("Part 1: c =",c)
     print("Part 1: result =",result1)
-
     # End of Part 1 ----------------------
 
 
@@ -66,11 +65,10 @@ def main():
     # Your code for part 2 under this line and before the print statements
     x = 5
     y = -3
-    result2 = x**2 * y**4
+    result2 = x**2 * y**4 # ** returns the first number raiseed to the power indicated by the second
     print("Part 2: x =",x)
     print("Part 2: y =",y)
     print("Part 2: result =",result2)
-    
     # End of Part 2 ----------------------
 
 
@@ -78,14 +76,20 @@ def main():
     # Part 3: Integer divide
     # =============================================
     # Your code for part 3 under this line and before the print statements
-
+    a = 100
+    b = 13
+    result3 = a // b # // returns the result rounded to the nearest integer
+    print("Part 3: a =",a)
+    print("Part 3: b =",b)
+    print("Part 3: result =",result3)
     # End of Part 3 ----------------------
 
 
     # Part 4: Modulo
     # =============================================
     # Your code for part 4 under this line and before the print statements
-
+    result4 = a % b # % returns the remainder after fitting op2 into op1 as many times as possible
+    print("Part 4: result =",result4)
     # End of Part 4 ----------------------
 
 if __name__ == "__main__":
